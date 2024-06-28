@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDYTON 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="particle.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="bg-[#040615] text-white px-4 py-6">
+
+        <div class="mx-auto px-4 md:w-3/5 mt-8">
+            <form>
+                <h1
+                    class="text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-white to-[#6bbcff] text-2xl font-bold  mb-4">
+                    Registration Form</h1>
+
+
+        <!-- ==========================Feild For Name And Other================================= -->
+        *********************************************************************************************************************************
+                <div class="mb-5">
+                    <label for="name" class="mb-3 block text-base font-medium text-white">
+                        Team Name
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Full Name"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="phone" class="mb-3 block text-base font-medium text-white">
+                        Email Address
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="email" class="mb-3 block text-base font-medium text-white">
+                        Name of 1st Member
+                    </label>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Name of 1st Member"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="name" class="mb-3 block text-base font-medium text-white">
+                        Name of 2nd Member
+                    </label>
+                    <input type="text" name="SecondName" id="SecondName" placeholder="Name of 2nd Member"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="phone" class="mb-3 block text-base font-medium text-white">
+                        Name of 3rd Member
+                    </label>
+                    <input type="text" name="SecondName" id="SecondName" placeholder="Name of 3rd Member"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="text" class="mb-3 block text-base font-medium text-white">
+                        Name Of College / Organization
+                    </label>
+                    <input type="text" name="CollegeName" id="CollegeName"
+                        placeholder="Enter Name Of College / Organization"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="text" class="mb-3 block text-base font-medium text-white">
+                        Contact Number
+                    </label>
+                    <input type="text" name=" Contact Number" id="Contact Number"
+                        placeholder="Contact Number"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+
+                <div class="mb-5">
+                    <label for="text" class="mb-3 block text-base font-medium text-white">
+                        Alternate Contact Number
+
+                    </label>
+                    <input type="text" name="Alternate Contact Number" id="Alternate Contact Number"
+                        placeholder="Alternate Contact Number"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+                
+                
+                
+<!-- ==========================Feild DropDown ================================= -->
+*********************************************************************************************************************************
+                <div class="mb-5">
+
+                    <label for="Mode" class="mb-3 block text-base font-medium text-white">
+                        Select Way Of Participation :
+
+                    </label>
+                    <select id="countries"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md">
+                        <option selected>Select Mode</option>
+                        <option>Offline Mode</option>
+                        <option value="US">Online Mode
+                            </option>
+                    </select>
+
+
+                </div>
+
+                <div class="mb-5">
+                    <label for="text" class="mb-3 block text-base font-medium text-white">
+                        Name Of Track / Topic
+
+                    </label>
+                    <input type="text" name="NameOfTrack" id="NameOfTrack"
+                        placeholder="Name Of Track / Topic"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+                <div class="mb-5">
+
+                    <label for="DomainCode" class="mb-3 block text-base font-medium text-white">
+                        Select Domain Code : (Under Which Your Track Falls ) 
+                     
+                    </label>
+                    <select id="DomainCode" name="DomainCode"
+                        class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md">
+                        <option selected>Select Domain Code</option>
+                        <option>Electronics and Telecommunication Engineering (EXTC)</option>
+                        <option value="US">Computer Science Engineering & Information Technology (CSE & IT)</option>
+                        <option>Civil Engineering (CE)</option>
+                        <option value="US">Mechanical Engineering  (ME)</option>
+                        <option value="US">MBA</option>
+                    </select>
+
+
+
+<!-- ==========================Feild For File Upload ================================= -->
+*********************************************************************************************************************************
+
+                    <div class="">
+                        <label for="Mode" class="mb-3 block text-base font-medium text-white mt-6">
+                            TRANSECTION RECEIPT Of Successful Payment Of Rs 200/- only : 
+                        </label>
+                        <input class="block w-full text-md font-medium py-1 text-gray-900 border border-gray-500 rounded-lg cursor-pointer bg-[#071829] dark:text-gray-400 focus:outline-none  dark:placeholder-gray-400 " id="file_input" type="file">
+                    </div>
+
+                    <div class="mb-5">
+                        <label for="text" class="mb-3 block text-base font-medium text-white mt-4">
+                            Transaction ID
+                        </label>
+                        <input type="text" name="TransactionID" id="Transaction ID"
+                            placeholder="Transaction ID"
+                            class="w-full rounded-md border  bg-[#071829] py-3 px-6 text-base font-medium text-white outline-transparent focus:border-[#6A64F1] focus:shadow-md" />
+                    </div>
+
+                </div>
+
+                <div>
+                    <button type="Submit"
+                        class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                        Register
+                    </button>
+                </div>
+
+                
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
